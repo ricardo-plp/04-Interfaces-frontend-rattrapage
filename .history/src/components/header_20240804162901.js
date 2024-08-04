@@ -8,7 +8,11 @@ const Header = () => {
         <h1 className="text-xl font-bold">CONGES-APP</h1>
       </div>
       <div className="flex items-center space-x-4">
-        <img src="/profile.jpg" alt="Profile" className="h-8 rounded-full" />
+        <img
+          src="/profile-pic.png"
+          alt="Profile"
+          className="h-8 rounded-full"
+        />
         <button className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded">
           Déconnexion
         </button>
